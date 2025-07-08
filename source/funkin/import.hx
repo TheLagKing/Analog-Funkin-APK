@@ -24,7 +24,7 @@ import extension.androidtools.Settings as AndroidSettings;
 import extension.androidtools.Tools as AndroidTools;
 import extension.androidtools.os.Build.VERSION as AndroidVersion;
 import extension.androidtools.os.Build.VERSION_CODES as AndroidVersionCode;
-import extension.androidtools.hardware.BatteryManager;
+import extension.androidtools.os.BatteryManager;
 #end
 
 import openfl.utils.Assets;
