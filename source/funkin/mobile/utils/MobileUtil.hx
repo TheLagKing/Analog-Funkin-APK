@@ -1,4 +1,4 @@
-package mobile.backend;
+package funkin.mobile.utils;
 
 /**
  * A storage class for mobile.
@@ -50,8 +50,8 @@ class SUtil
 
 		try
 		{
-			if (!FileSystem.exists(SUtil.getStorageDirectory()))
-				FileSystem.createDirectory(SUtil.getStorageDirectory());
+			if (!FileSystem.exists(MobileUtil.getStorageDirectory()))
+				FileSystem.createDirectory(MobileUtil.getStorageDirectory());
 		}
 		catch (e:Dynamic)
 		{
