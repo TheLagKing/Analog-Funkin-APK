@@ -16,12 +16,12 @@ import funkin.mobile.*;
 import funkin.mobile.backend.*;
 import funkin.mobile.controls.*;
 import funkin.mobile.utils.*;
- import extension.androidtools.Permissions as AndroidPermissions;
- import android.Settings as AndroidSettings;
- import android.Tools as AndroidTools;
- import android.os.Build.VERSION as AndroidVersion;
- import android.os.Build.VERSION_CODES as AndroidVersionCode;
- import android.os.BatteryManager as AndroidBatteryManager;
+import extension.androidtools.Permissions as AndroidPermissions;
+import extension.androidtools.Settings as AndroidSettings;
+import extension.androidtools.Tools as AndroidTools;
+import extension.androidtools.os.Build.VERSION as AndroidVersion;
+import extension.androidtools.os.Build.VERSION_CODES as AndroidVersionCode;
+import extension.androidtools.os.BatteryManager as AndroidBatteryManager;
 #end
 
 import openfl.utils.Assets;
