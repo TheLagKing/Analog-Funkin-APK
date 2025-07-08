@@ -1,4 +1,4 @@
-package mobile.states;
+package funkin.mobile.states;
 
 #if mobile
 import TitleState;
