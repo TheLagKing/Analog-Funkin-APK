@@ -16,7 +16,6 @@ import funkin.mobile.*;
 import funkin.mobile.backend.*;
 import funkin.mobile.controls.*;
 import funkin.mobile.utils.*;
- import android.os.Environment as AndroidEnvironment;
  import android.Permissions as AndroidPermissions;
  import android.Settings as AndroidSettings;
  import android.Tools as AndroidTools;
