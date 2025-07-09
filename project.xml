@@ -2,7 +2,7 @@
 <project>
 	<!-- _________________________ Application Settings _________________________ -->
 	<app
-		title="FNF' - Codename Engine" main="funkin.backend.system.Main"
+		title="Analog Funkin'" main="funkin.backend.system.Main"
 		file="CodenameEngine" packageName="com.AnalogFunkin.codenameengine"
 		package="com.AnalogFunkin.codenameengine"
 		version="0.1.1" company="Yoshman29" />
