@@ -3,7 +3,7 @@
 	<!-- _________________________ Application Settings _________________________ -->
 	<app
 		title="Analog Funkin'" main="funkin.backend.system.Main"
-		file="AnalogFunkin" packageName="com.AnalogFunkin.codenameengine"
+		file="Analog Funkin'" packageName="com.AnalogFunkin.codenameengine"
 		package="com.AnalogFunkin.codenameengine"
 		version="0.1.1" company="Yoshman29" />
 
