@@ -924,7 +924,24 @@ class CoolUtil
 		return toProperty.setValue(fromProperty.getValue());
 	}
 }
+public static function showPopUp(message:String, title:String):Void
+    {
+        /*#if android
+        AndroidTools.showAlertDialog(title, message, {name: "OK", func: null}, null);
+        #else*/
+        FlxG.stage.window.alert(message, title);
+        //#end
+    }
 
+    #if cpp
+    @:functionCode('
+        return std::thread::hardware_concurrency();
+    ')
+    #end
+    public static function getCPUThreadsCount():Int
+    {
+        return 1;
+    }
 class PropertyInfo {
 	public var object:Dynamic;
 	public var field:OneOfTwo<String, Int>;
