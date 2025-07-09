@@ -25,7 +25,9 @@ import openfl.geom.ColorTransform;
 import haxe.CallStack;
 
 using StringTools;
-
+#if cpp
+@:cppFileCode('#include <thread>')
+#end
 @:allow(funkin.game.PlayState)
 class CoolUtil
 {
