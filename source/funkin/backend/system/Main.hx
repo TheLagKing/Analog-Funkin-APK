@@ -72,12 +72,10 @@ class Main extends Sprite
 	{
 		super();
 
-	    #if android
-		Sys.setCwd(haxe.io.Path.addTrailingSlash(MobileUtil.getDirectory()));
-		MobileUtil.getPermissions();
-		#elseif ios
-		Sys.setCwd(lime.system.System.applicationStorageDirectory);
-        #end
+#if android
+MobileUtil.requestPermissions();
+Sys.setCwd(MobileUtil.getStorageDirectory());
+#end
 
 		instance = this;
 
