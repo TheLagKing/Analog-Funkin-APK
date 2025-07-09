@@ -6,7 +6,7 @@ package funkin.mobile.utils;
 import sys.FileSystem;
 import sys.io.File;
 import sys.io.Process;
-class SUtil
+class MobileUtil
 {
 	#if sys
 	public static function getStorageDirectory():String
