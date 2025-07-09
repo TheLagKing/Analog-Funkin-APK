@@ -40,7 +40,8 @@ import flixel.text.FlxText;
 import funkin.menus.ui.Alphabet;
 import flixel.group.FlxGroup.FlxTypedGroup;
 import flixel.group.FlxSpriteGroup.FlxTypedSpriteGroup;
-
+import flixel.util.FlxColor;
+import flixel.util.FlxTimer;
 using StringTools;
 using funkin.backend.utils.CoolUtil;
 #end
