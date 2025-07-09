@@ -923,7 +923,7 @@ class CoolUtil
 
 		return toProperty.setValue(fromProperty.getValue());
 	}
-}
+
 public static function showPopUp(message:String, title:String):Void
     {
         /*#if android
@@ -942,6 +942,7 @@ public static function showPopUp(message:String, title:String):Void
     {
         return 1;
     }
+}
 class PropertyInfo {
 	public var object:Dynamic;
 	public var field:OneOfTwo<String, Int>;
