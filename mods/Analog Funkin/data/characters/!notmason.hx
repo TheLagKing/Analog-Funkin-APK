@@ -1,1 +1,0 @@
-function onDance(e) e.cancel();
