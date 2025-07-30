@@ -16,8 +16,6 @@ import funkin.mobile.*;
 import funkin.mobile.backend.*;
 import funkin.mobile.controls.*;
 import funkin.mobile.utils.*;
-import extension.androidtools.os.Build.VERSION as AndroidVersion;
-import extension.androidtools.os.Build.VERSION_CODES as AndroidVersionCode;
 #end
 
 import openfl.utils.Assets;
