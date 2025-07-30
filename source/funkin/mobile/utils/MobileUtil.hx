@@ -25,7 +25,7 @@ class MobileUtil
 		}
 		catch (e:Dynamic)
 			if (alert)
-				CoolUtil.showPopUp('$fileName couldn\'t be saved.\n(${e.message})', "Error!")
+				MobileUtil.showPopUp('$fileName couldn\'t be saved.\n(${e.message})', "Error!")
 			else
 				trace('$fileName couldn\'t be saved. (${e.message})');
 	}
@@ -55,7 +55,7 @@ class MobileUtil
 		}
 		catch (e:Dynamic)
 		{
-			CoolUtil.showPopUp('Please create directory to\n' + MobileUtil.getStorageDirectory() + '\nPress OK to close the game', 'Error!');
+			MobileUtil.showPopUp('Please create directory to\n' + MobileUtil.getStorageDirectory() + '\nPress OK to close the game', 'Error!');
 			lime.system.System.exit(1);
 		}
 	}
