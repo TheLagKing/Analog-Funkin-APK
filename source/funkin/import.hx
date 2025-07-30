@@ -35,5 +35,5 @@ import flixel.group.FlxSpriteGroup.FlxTypedSpriteGroup;
 import flixel.util.FlxColor;
 import flixel.util.FlxTimer;
 using StringTools;
-using funkin.backend.utils.CoolUtil;
+using funkin.backend.utils.MobileUtil;
 #end
