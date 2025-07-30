@@ -16,7 +16,6 @@ import funkin.mobile.*;
 import funkin.mobile.backend.*;
 import funkin.mobile.controls.*;
 import funkin.mobile.utils.*;
-import extension.androidtools.content.Context as AndroidContext;
 import extension.androidtools.widget.Toast as AndroidToast;
 import extension.androidtools.os.Environment as AndroidEnvironment;
 import extension.androidtools.Permissions as AndroidPermissions;
