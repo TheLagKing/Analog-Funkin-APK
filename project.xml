@@ -182,7 +182,7 @@
 	<haxelib name="format" />
 	<haxelib name="flxanimate" />
 	<haxelib name="nape-haxe4" if="NAPE_ENABLED"/>
-        <source path="libs/extension-androidtools/src" if="android" />
+        <haxelih name="extension-androidtools" if="android" />
 	<haxelib name="hscript-improved" />
 	<haxelib name="hxdiscord_rpc" if="DISCORD_RPC"/>
 	<haxelib name="markdown" />
