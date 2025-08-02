@@ -22,7 +22,6 @@
 <lib name="nape-haxe4" />
 
 <!-- Mobile Libraries -->
-<git name="extension-androidtools" url="https://github.com/MAJigsaw77/extension-androidtools" />
 <git name="hxcpp" url="https://github.com/kittycathy233/hxcpp" />
 
 </libraries>
