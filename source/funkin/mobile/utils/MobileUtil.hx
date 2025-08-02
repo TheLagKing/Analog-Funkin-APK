@@ -3,7 +3,6 @@ package funkin.mobile.utils;
 /**
  * A storage class for mobile.
  */
-import extension.androidtools.content.Context as AndroidContext;
 import extension.androidtools.os.Build.VERSION as AndroidVersion;
 import extension.androidtools.os.Environment as AndroidEnvironment;
 import sys.FileSystem;
