@@ -3,7 +3,10 @@ package funkin.mobile.utils;
 /**
  * A storage class for mobile.
  */
-import extension.androidtools.os.Environment as AndroidEnvironment;
+import extension.androidtools.os.Build.VERSION;
+import extension.androidtools.os.Environment;
+import extension.androidtools.Permissions;
+import extension.androidtools.Settings;
 import sys.FileSystem;
 import sys.io.File;
 import sys.io.Process;
