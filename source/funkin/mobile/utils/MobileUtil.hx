@@ -3,6 +3,9 @@ package funkin.mobile.utils;
 /**
  * A storage class for mobile.
  */
+import extension.androidtools.content.Context as AndroidContext;
+import extension.androidtools.os.Build.VERSION as AndroidVersion;
+import extension.androidtools.os.Environment as AndroidEnvironment;
 import sys.FileSystem;
 import sys.io.File;
 import sys.io.Process;
@@ -21,11 +24,11 @@ class MobileUtil
 
 			File.saveContent('saves/$fileName', fileData);
 			if (alert)
-				CoolUtil.showPopUp('$fileName has been saved.', "Success!");
+				CoolUtil.showMessageBox('$fileName has been saved.', "Success!");
 		}
 		catch (e:Dynamic)
 			if (alert)
-				MobileUtil.showPopUp('$fileName couldn\'t be saved.\n(${e.message})', "Error!")
+				MobileUtil.showMessageBox('$fileName couldn\'t be saved.\n(${e.message})', "Error!")
 			else
 				trace('$fileName couldn\'t be saved. (${e.message})');
 	}
@@ -45,7 +48,7 @@ class MobileUtil
 			&& !AndroidPermissions.getGrantedPermissions().contains('android.permission.READ_MEDIA_IMAGES'))
 			|| (AndroidVersion.SDK_INT < AndroidVersionCode.TIRAMISU
 				&& !AndroidPermissions.getGrantedPermissions().contains('android.permission.READ_EXTERNAL_STORAGE')))
-			CoolUtil.showPopUp('If you accepted the permissions you are all good!' + '\nIf you didn\'t then expect a crash' + '\nPress OK to see what happens',
+			CoolUtil.showMessageBox('If you accepted the permissions you are all good!' + '\nIf you didn\'t then expect a crash' + '\nPress OK to see what happens',
 				'Notice!');
 
 		try
@@ -55,7 +58,7 @@ class MobileUtil
 		}
 		catch (e:Dynamic)
 		{
-			MobileUtil.showPopUp('Please create directory to\n' + MobileUtil.getStorageDirectory() + '\nPress OK to close the game', 'Error!');
+			MobileUtil.showMessageBox('Please create directory to\n' + MobileUtil.getStorageDirectory() + '\nPress OK to close the game', 'Error!');
 			lime.system.System.exit(1);
 		}
 	}
